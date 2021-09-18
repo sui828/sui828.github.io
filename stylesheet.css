@@ -8,7 +8,6 @@
       margin: 0;
     }
     a {
-      color: #fff;
       text-decoration: none;
     }
     .box{
@@ -280,7 +279,7 @@
       justify-content: space-between;
       flex-wrap: wrap;
     }
-    .a > divisionarea {
+    .divisionarea {
       background: #fff;
       border: 2px dashed #111;
       border-radius: 15px;
@@ -288,20 +287,20 @@
       margin: 20px 0;
       height: auto;
     }
-    .a > divisionimage{
+    .divisionimage{
       width: 100%;
       margin-top: 20px;
       margin-left: auto;
       margin-right: auto;
       text-align: center;
     }
-    .a > divisionimage > img {
+    .divisionimage > img {
       border-radius: 5%;
       width: 90%;
       object-fit: cover;
       font-family: 'object-fit: cover;'; /*IE対策*/
     }
-    .a > divisionname {
+    .divisionname {
       margin: 10px 0;
       padding: 10px 0;
       text-align: center;
