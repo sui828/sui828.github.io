@@ -226,6 +226,10 @@
       font-family: 'Sawarabi Gothic', sans-serif;
       color: #fff;
     } 
+    .mainbuttonarea > a {
+      color: #fff;
+      text-decoration: none;
+    } 
     .mainbuttonspan {
       display: block;
       padding: 15px 30px;
