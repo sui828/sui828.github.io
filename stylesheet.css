@@ -315,7 +315,7 @@
     .example {
       max-width: 960px;
       height: auto;
-      margin: 50px auto;
+      margin: 0 auto;
       padding: 2em 0;
       display: flex;
       justify-content: space-between;
