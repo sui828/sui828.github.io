@@ -270,7 +270,7 @@
       top: 0;
       transition: all ease-in-out .35s;
     }
-    /*部紹介*/
+    /*コンテンツ*/
     .division {
       max-width: 960px;
       height: auto;
@@ -280,11 +280,11 @@
       justify-content: space-between;
       flex-wrap: wrap;
     }
-    .divisionP {
+    .divisionarea {
       background: #fff;
-      border: 2px dashed #00a5ff;
+      border: 2px dashed #111;
       border-radius: 15px;
-      width: 49%;
+      width: 24%;
       margin: 20px 0;
       height: auto;
     }
