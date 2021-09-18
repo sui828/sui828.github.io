@@ -192,24 +192,6 @@
       margin-right: auto;
       position: relative;
     }
-    .mainimagetext {
-      position: absolute;
-      color: #000;
-      top: 60%;
-      left: 80%;
-      -ms-transform: translate(-60%,-80%);
-      -webkit-transform: translate(-60%,-80%);
-      transform: translate(-60%,-80%);
-      background: #fff;
-      padding: 6px;
-      border: solid 3px #000000;
-      font-size: 32px;
-      width: 145px;
-    }
-    .mainimage2 {
-      max-width: 960px;
-      width: 100%;
-    }
     /*ボタン*/
     .mainbuttonarea {
       background: #000;
@@ -321,7 +303,6 @@
       max-width: 960px;
       height: auto;
       margin: 0 auto;
-      padding: 2em 0;
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
