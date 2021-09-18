@@ -311,7 +311,7 @@
       font-weight: bold;
       color: #111;
     }
-    /*活動例*/    
+    /*リンク*/    
     .example {
       max-width: 960px;
       height: auto;
@@ -325,14 +325,6 @@
       width: 31%;
       margin: 20px 0;
       height: auto;
-    }
-    .exampleimage {
-      width: 100%;
-    }
-    .exampleimage > img{
-      width: 100%;
-      object-fit: cover;
-      font-family: 'object-fit: cover;'; /*IE対策*/
     }
     .exampletextarea {
       width: 65%;
