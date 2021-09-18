@@ -291,6 +291,11 @@
       margin: 20px 0;
       height: auto;
     }
+    .divisionarea > a {
+      color: #111;
+      display: block;
+      text-decoration: none;
+    }
     .divisionimage{
       width: 100%;
       margin-top: 20px;
