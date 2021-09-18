@@ -1,0 +1,683 @@
+/* 全体 */
+    body{
+      background: #fff;
+      color: #444444;
+      font-size: 16px;
+      font-family: 'Sawarabi Mincho', sans-serif;
+      line-height: 1.42857;
+      margin: 0;
+    }
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+    .box{
+      max-width: 960px;
+      width: 80%;
+      padding: 3em;
+      margin: 2em 0;
+      margin-left: auto;
+      margin-right: auto;
+      border: solid 3px #000000;
+    }
+    .boxtext {
+      max-width: 768px;
+      width: 80%;
+      height: auto;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 80px;
+    }
+    /*ヘッダー*/
+    .header {
+      z-index: 100;
+      padding: 12px 0;
+      width: 100%;
+      background: #111;
+      color: #999;
+    }
+    .title{
+      max-width: 960px;
+      height: auto;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .titletext {
+      color:#0f0;
+      text-shadow:0 0 0.5em #0f0;
+      margin: 0;
+      font-family: 'Roboto Mono', monospace;
+      font-size: 2.4em;
+      padding-right: 20px;
+    }
+    .logoimage{
+      width: 30px;
+      height: 30px;
+    }
+    /*ナビゲーション*/
+    .navigation {
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+      padding: 1px 0 0;
+      background: #111;
+    }
+    .navigationarea {
+      text-align: center;
+      max-width: 960px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .navigationlist {
+      padding: 0;
+      display: flex;
+      font-family: 'Roboto Mono', monospace;
+      justify-content: space-around;
+    }
+    .navigationlist > li {
+      list-style-type: none;
+    }
+    .navigationlist > li a {
+      display: block;
+      padding: 6px 12px;
+      color: #0f0;
+      text-decoration: none;
+    }
+    .navigationlist > li a:hover {
+      color: #0f0;
+    }
+    .navigationlist > li a.active {
+      border-bottom: #0f0 solid 2px;
+      color: #0f0;
+    }
+    
+    .navigationlist > li a {
+	display: inline-block;
+    	position: relative;
+    }
+    .navigationlist > li a::after {
+    	position: absolute;
+	    content: '';
+	    bottom: 0;
+	    left: 0;
+	    width: 0;
+    	height: 3px;
+    	background: #0f0;
+	    transition: all 0.3s ease 0s;
+    }
+    .navigationlist > li a:hover {
+    	cursor: pointer;
+    }
+    .navigationlist > li a:hover::after {
+    	width: 100%;
+    }
+    /*ページタイトル*/
+    .pagetitleline {
+      width: 100%;
+      height: 20px;
+      background: #000;
+      margin: 40px 0;
+    }
+    .pagetitle {
+      text-align: center;
+      font-family: 'Sawarabi Gothic', sans-serif;
+      font-size: 1.5em;
+      margin: 40px 0 60px;
+    }
+    .pagetitlebold {
+      font-family: 'Sawarabi Gothic', sans-serif;
+      font-size: 3em;
+    }
+    /*見出し*/
+    .caption {
+      max-width: 960px;
+      margin: 0 auto 50px;
+    }
+    .captiontitle {
+      text-align: center;
+      font-family: 'Sawarabi Gothic', sans-serif;
+      font-size: 2.4em;
+    }
+    /*SNSボタン*/
+    .snsicon{
+      max-width: 960px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .snsiconlist{
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0;
+    }
+    .icons{
+      margin: 0 0 0 10px;
+      color: #0f0;
+    }
+    /*フッター*/
+    .footer{
+      background: #111;
+      color: #0f0;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 12px;
+    }
+    .footertext{
+      font-family: 'Roboto Mono', monospace;
+      font-size: 20px;
+    }
+    .copyright{
+      font-family: 'Roboto Mono', monospace;
+      font-size: 10px;
+    }
+
+
+/* index */
+    /*メイン画像*/
+    .mainimage{
+      width: 100vw;
+      height: 100%;
+      margin-bottom: 80px;
+      padding: 1px 0 0;
+      flex-wrap: wrap;
+    }
+    .mainimagearea {
+      text-align: center;
+      max-width: 960px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+    }
+    .mainimagetext {
+      position: absolute;
+      color: #000;
+      top: 60%;
+      left: 80%;
+      -ms-transform: translate(-60%,-80%);
+      -webkit-transform: translate(-60%,-80%);
+      transform: translate(-60%,-80%);
+      background: #fff;
+      padding: 6px;
+      border: solid 3px #000000;
+      font-size: 32px;
+      width: 145px;
+    }
+    .mainimage2 {
+      max-width: 960px;
+      width: 100%;
+    }
+    /*ボタン*/
+    .mainbuttonarea {
+      background: #000;
+      border: none;
+      padding: 2px;
+      cursor: pointer;
+      display: block;
+      position: relative;
+      overflow: hidden;
+      transition: all .35s ease-in-out .35s;
+      margin: 0 auto;
+      width: 300px;
+      text-align: center;
+      font-family: 'Sawarabi Gothic', sans-serif;
+      color: #fff;
+    } 
+    .mainbuttonspan {
+      display: block;
+      padding: 15px 30px;
+      background: #000;
+      z-index: 100;
+      position: relative;
+      transition: all .35s ease-in-out .35s;
+    }
+    .mainbuttonarea:hover span {
+      background: #0f0;
+      color: #000;
+      transition: all .35s ease-in-out .35s;
+    }
+    .mainbuttonarea:after {
+      bottom: -100%;
+      right: -100%;
+      content: "";
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background: #0f0;
+      transition: all .35s ease-in-out .5s;
+    }
+    .mainbuttonarea:hover:after {
+      right: 0;
+      bottom: 0;
+      transition: all ease-in-out .35s;
+    }
+    .mainbuttonarea:before {
+      top: -100%;
+      left: -100%;
+      content: "";
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background: #0f0;
+      transition: all .35s ease-in-out .5s;
+    }
+    .mainbuttonarea:hover:before {
+      left: 0;
+      top: 0;
+      transition: all ease-in-out .35s;
+    }
+    /*部紹介*/
+    .division {
+      max-width: 960px;
+      height: auto;
+      margin: 50px auto;
+      padding: 2em 0;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .divisionP {
+      background: #fff;
+      border: 2px dashed #00a5ff;
+      border-radius: 15px;
+      width: 31%;
+      margin: 20px 0;
+      height: auto;
+    }
+    .divisionG {
+      background: #fff;
+      border: 2px dashed #ff0031;
+      border-radius: 15px;
+      width: 31%;
+      margin: 20px 0;
+      height: auto;
+    }
+    .divisionC {
+      background: #fff;
+      border: 2px dashed #ffdc00;
+      border-radius: 15px;
+      width: 31%;
+      margin: 20px 0;
+      height: auto;
+    }
+    .divisionimage{
+      width: 100%;
+      margin-top: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+    .divisionimage > img {
+      border-radius: 5%;
+      width: 90%;
+      object-fit: cover;
+      font-family: 'object-fit: cover;'; /*IE対策*/
+    }
+    .divisionname {
+      margin: 10px 0;
+      padding: 10px 0;
+      border-bottom: 1px dotted #444;
+      text-align: center;
+      font-weight: bold;
+    }
+    .divisiontext{
+      width: 90%;
+      padding: 20px 0;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 20px;
+    }
+    /*活動例*/    
+    .example {
+      max-width: 960px;
+      height: auto;
+      margin: 50px auto;
+      padding: 2em 0;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .exampleimagearea {
+      width: 31%;
+      margin: 20px 0;
+      height: auto;
+    }
+    .exampleimage {
+      width: 100%;
+    }
+    .exampleimage > img{
+      width: 100%;
+      object-fit: cover;
+      font-family: 'object-fit: cover;'; /*IE対策*/
+    }
+    .exampletextarea {
+      width: 65%;
+      margin: 20px 0;
+      height: auto;
+    }
+
+/* about */
+    .abouttitle{
+      font-family: 'Sawarabi Gothic', sans-serif;
+      display: inline-block;
+      width: 100px;
+      height: 20px;
+      padding: 0.5em;
+      margin-right: 40px;
+      font-weight: bold;
+      color: #000;
+      background: #fff;
+      border: solid 3px #111;
+      border-radius: 5px;
+      text-align: center;
+    }
+    /*要職紹介*/    
+    .heads {
+      max-width: 960px;
+      height: auto;
+      margin: 50px auto;
+      padding: 2em 0;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .headslist {
+      width: 31%;
+      margin: 20px 0;
+      height: auto;
+    }
+    .headsimage {
+      width: 100%;
+    }
+    .headsimage > img{
+      border-radius: 50%;
+      width: 100%;
+      object-fit: cover;
+      font-family: 'object-fit: cover;'; /*IE対策*/
+    }
+    .headsbody{
+      background: #ddd;
+      color: #000;
+      border-radius: 15px;
+      width: 100%;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      text-align: center;
+    }
+    .headstitle{
+      font-size: 1.2rem;
+      text-align: center;
+    }
+    .headsname{
+      font-size: 1.8rem;
+      text-align: center;
+    }
+
+/*works*/
+    /* メニュー全体 */
+    .accordion {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .accordion input {
+      display: none;
+    }
+    .accordion input:checked + ul {
+      line-height: 1.5;
+      padding: 1rem 1rem;
+    }
+    .accordion ul {
+      background: #fff;
+      list-style: none;
+      margin: 0;
+      margin-left: auto;
+      margin-right: auto;
+      border: solid 1px #000000;
+      overflow: hidden;
+      line-height: 0;
+      padding: 0 1rem;
+      transition: 0.2s;
+    }
+    .accordion label {
+      display: block;
+      margin: 0;
+      padding: 0.5rem;
+      background: #fff;
+      cursor: pointer;
+      margin-top: 1rem;
+      border: solid 2px #000000;
+    }
+    .accordion label:hover {
+      background: #ccc;
+    }
+    .accordionimagearea {
+      width: 31%;
+      margin: 20px 0;
+      height: auto;
+    }
+    .accordionimagearea > img{
+      width: 100%;
+      object-fit: cover;
+      font-family: 'object-fit: cover;'; /*IE対策*/
+    }
+    .accordionimage {
+      width: 100%;
+    }
+    .accordionimage > img{
+      width: 100%;
+      object-fit: cover;
+      font-family: 'object-fit: cover;'; /*IE対策*/
+    }
+    .accordiontext {
+      width: 65%;
+      margin: 20px 0;
+      height: auto;
+    }
+
+/*info*/
+    /*目次*/
+    .infos {
+      max-width: 960px;
+      height: auto;
+      margin: 50px auto;
+      padding: 2em 0;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .infolist {
+      width: 31%;
+      margin: 20px 0;
+      height: auto;
+    }
+    .infoimage{
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .infoimage > img {
+      border-radius: 5%;
+      width: 100%;
+      object-fit: cover;
+      font-family: 'object-fit: cover;'; /*IE対策*/
+    }
+    .infobody{
+      background: #ddd;
+      color: #000;
+      border-radius: 15px;
+      width: 100%;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      text-align: center;
+    }
+    .infotitle{
+      font-size: 1.8rem;
+      text-align: center;
+    }
+    .infotext{
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 10px;
+    }
+
+/*blogs*/
+    /*記事一覧*/
+    .article {
+      max-width: 960px;
+      height: auto;
+      margin: 50px auto;
+      padding: 2em 0;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .articlelist {
+      width: 31%;
+      margin: 20px 0;
+      height: auto;
+    }
+    .articlebody{
+      background: #ddd;
+      color: #000;
+      border-radius: 15px;
+      width: 100%;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      text-align: center;
+    }
+    .articletitle{
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      font-family: 'Sawarabi Gothic', sans-serif;
+      font-size: 1.8rem;
+      text-align: center;
+    }
+    .articledate{
+      width: 90%;
+      text-align: left;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 0.8rem;
+    }
+    .articleabstract{
+      width: 90%;
+      text-align: left;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 20px;
+    }
+    .articletext {
+      max-width: 768px;
+      width: 80%;
+      height: auto;
+      text-align: left;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 40px;
+    }    
+    .articleauthor {
+      background: #ddd;
+      border-radius: 30px;
+      width: 90%;
+      max-width: 720px;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 5%;
+      display: flex;
+      flex-wrap: wrap;
+      -webkit-box-sizing: border-box;  /*webkit系*/
+      -moz-box-sizing: border-box;  /*Firefox*/
+      box-sizing: border-box;
+    }
+    .articleauthorimage {
+      width: 40%;
+      margin: 20px 0;
+      height: auto;
+    }
+    .articleauthorimage > img{
+      border-radius: 50%;
+      width: 100%;
+      object-fit: cover;
+      font-family: 'object-fit: cover;'; /*IE対策*/
+    }
+    .articleauthortextarea {
+      width: 50%;
+      margin: 20px 0;
+      margin-left: auto;
+      height: auto;
+    }
+    .articleauthortext {
+      width: 100%;
+      height: auto;
+      text-align: left;
+      margin-bottom: 40px;
+    } 
+
+/* join */
+    /*年間スケジュール*/
+    .schedule {
+      padding: 0;
+    }
+    .schedulelist {
+      width: 90%;
+      margin: 10px 0;
+      padding: 10px 0;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .schedulemonth {
+      font-family: 'Sawarabi Gothic', sans-serif;
+      display: inline-block;
+      width: 100px;
+      height: 20px;
+      padding: 0.5em;
+      margin-right: 40px;
+      font-weight: bold;
+      color: #000;
+      background: #999;
+      border: solid 3px #999;
+      border-radius: 20px;
+      text-align: center;
+    }
+    .scheduletexts {
+      display: inline-block;
+      width: 40%;
+      margin: 10px 0;
+    }
+    .scheduleline {
+      width: 80%;
+      border-bottom: 1px dotted #111;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    /*入会までの流れ*/
+    .flowtitle{
+      font-family: 'Sawarabi Gothic', sans-serif;
+      font-size: 1.8em;
+      max-width: 768px;
+      width: 80%;
+      height: auto;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 40px;
+    }
+    .flowline{
+      background: linear-gradient(transparent 60%, #0f0 50%);
+    }
+    .flowicon{
+      margin: 0 0 0 10px;
+      color: #111;
+    }
