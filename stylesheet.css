@@ -280,7 +280,7 @@
       justify-content: space-between;
       flex-wrap: wrap;
     }
-    .divisionarea {
+    .a > divisionarea {
       background: #fff;
       border: 2px dashed #111;
       border-radius: 15px;
@@ -288,24 +288,25 @@
       margin: 20px 0;
       height: auto;
     }
-    .divisionimage{
+    .a > divisionimage{
       width: 100%;
       margin-top: 20px;
       margin-left: auto;
       margin-right: auto;
       text-align: center;
     }
-    .divisionimage > img {
+    .a > divisionimage > img {
       border-radius: 5%;
       width: 90%;
       object-fit: cover;
       font-family: 'object-fit: cover;'; /*IE対策*/
     }
-    .divisionname {
+    .a > divisionname {
       margin: 10px 0;
       padding: 10px 0;
       text-align: center;
       font-weight: bold;
+      color: #111;
     }
     /*活動例*/    
     .example {
