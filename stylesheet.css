@@ -192,6 +192,10 @@
       margin-right: auto;
       position: relative;
     }
+    .mainimage2 {
+      max-width: 960px;
+      width: 100%;
+    }
     /*ボタン*/
     .mainbuttonarea {
       background: #000;
