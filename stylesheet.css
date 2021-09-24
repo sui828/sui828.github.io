@@ -302,33 +302,14 @@
       font-weight: bold;
       color: #111;
     }
-    .btn,
-    a.btn {
-      font-size: 1.6rem;
-      font-weight: 600;
-      line-height: 1.5;
-      position: relative;
-      display: inline-block;
-      padding: 1rem;
-      cursor: pointer;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-      -webkit-transition: all 0.3s;
-      transition: all 0.3s;
-      text-align: center;
-      vertical-align: middle;
-      text-decoration: none;
-      letter-spacing: 0.1em;
-      color: #212529;
-      border-radius: 0.5rem;
-      weight: 31%;
-    }
     .divisionicon1,
     a.divisionicon1 {
+      padding: 1rem;
+      weight: 31%;
+      text-align: center;
       color: #fff;
-      background-color: #111; 
+      background-color: #111;
+      border-radius: 0.5rem;
     }
     .divisionicon1:hover,
     a.divisionicon1:hover {
