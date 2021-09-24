@@ -326,10 +326,10 @@
       font-size: 1.8em;
       background-color: #111;
       border-radius: 0.5rem;
-      text-decoration: none;
     }
     .divisionicon1 > a {
       display: block;
+      text-decoration: none;
     }
     .divisionicon1:hover {
       color: #fff;
@@ -345,7 +345,6 @@
       font-size: 1.8em;
       background-color: #fff;
       border-radius: 0.5rem;
-      text-decoration: none;
     }
     /*リンク*/    
     .example {
