@@ -33,8 +33,8 @@
       z-index: 100;
       padding: 12px 0;
       width: 100%;
-      background: #fff;
-      color: #999;
+      background: #111;
+      color: #fff;
     }
     .title{
       max-width: 960px;
@@ -44,7 +44,7 @@
       flex-wrap: wrap;
     }
     .titletext {
-      color:#111;
+      color:#fff;
       margin: 0;
       font-family: 'Sawarabi Mincho', sans-serif;
       font-size: 2.4em;
