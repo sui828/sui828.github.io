@@ -303,6 +303,12 @@
       font-size: 1.5em;
       color: #111;
     }
+    .divisiontext {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 10px;
+    }
     .divisionicon {
       width: 90%;
       margin-left: auto;
