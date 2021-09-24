@@ -44,6 +44,7 @@
       flex-wrap: wrap;
     }
     .titletext {
+      text-decoration: none;
       color:#fff;
       margin: 0;
       font-family: 'Sawarabi Mincho', sans-serif;
