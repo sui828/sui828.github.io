@@ -10,9 +10,6 @@
     a {
       text-decoration: none;
     }
-    a.disabled{
-      pointer-events: none;
-    }
     .box{
       max-width: 960px;
       width: 80%;
@@ -289,6 +286,9 @@
       color: #111;
       display: block;
       text-decoration: none;
+    }
+    .divisionarea > a disabled{
+      pointer-events: none;
     }
     .divisionimage{
       width: 100%;
