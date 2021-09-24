@@ -328,8 +328,9 @@
       border-radius: 0.5rem;
     }
     .divisionicon1 > a {
-      display: block;
       text-decoration: none;
+      color: #fff;
+      display: block;
     }
     .divisionicon1:hover {
       color: #fff;
