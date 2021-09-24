@@ -305,7 +305,6 @@
     .divisionicon1,
     a.divisionicon1 {
       display: inline-block;
-      padding: 1rem;
       width: 31%;
       text-align: center;
       color: #fff;
@@ -321,7 +320,6 @@
     .divisionicon2,
     a.divisionicon2 {
       display: inline-block;
-      padding: 1rem;
       width: 31%;
       text-align: center;
       color: #111;
