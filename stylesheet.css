@@ -334,6 +334,11 @@
       color: #fff;
       background-color: #444; 
     }
+    .divisionicon2,
+    a.divisionicon2 {
+      color: #111;
+      background-color: #fff; 
+    }
     /*リンク*/    
     .example {
       max-width: 960px;
