@@ -374,6 +374,7 @@
       color: #fff;
       background-color: #444; 
     }
+
     /*リンク*/    
     .example {
       max-width: 960px;
@@ -394,59 +395,18 @@
       height: auto;
     }
 
-/* about */
-    .abouttitle{
-      font-family: 'Sawarabi Gothic', sans-serif;
-      display: inline-block;
-      width: 100px;
-      height: 20px;
-      padding: 0.5em;
-      margin-right: 40px;
-      font-weight: bold;
-      color: #000;
-      background: #fff;
-      border: solid 3px #111;
-      border-radius: 5px;
+    /*novel*/
+    .noveltitle {
       text-align: center;
+      font-family: 'Sawarabi Mincho', sans-serif;
+      font-size: 2.4em;
     }
-    /*要職紹介*/    
-    .heads {
-      max-width: 960px;
+    .noveltext {
+      max-width: 768px;
+      width: 80%;
       height: auto;
-      margin: 50px auto;
-      padding: 2em 0;
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-    }
-    .headslist {
-      width: 31%;
-      margin: 20px 0;
-      height: auto;
-    }
-    .headsimage {
-      width: 100%;
-    }
-    .headsimage > img{
-      border-radius: 50%;
-      width: 100%;
-      object-fit: cover;
-      font-family: 'object-fit: cover;'; /*IE対策*/
-    }
-    .headsbody{
-      background: #ddd;
-      color: #000;
-      border-radius: 15px;
-      width: 100%;
-      padding-top: 20px;
-      padding-bottom: 20px;
       text-align: center;
-    }
-    .headstitle{
-      font-size: 1.2rem;
-      text-align: center;
-    }
-    .headsname{
-      font-size: 1.8rem;
-      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 40px;
     }
