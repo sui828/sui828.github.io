@@ -355,6 +355,25 @@
       background-color: #fff;
       border-radius: 0.5rem;
     }
+    .divisionicon3 {
+      display: inline-block;
+      width: 80%;
+      text-align: center;
+      color: #fff;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 1.5em;
+      background-color: #111;
+      border-radius: 0.5rem;
+    }
+    .divisionicon3 > a {
+      text-decoration: none;
+      color: #fff;
+      display: block;
+    }
+    .divisionicon3:hover {
+      color: #fff;
+      background-color: #444; 
+    }
     /*リンク*/    
     .example {
       max-width: 960px;
