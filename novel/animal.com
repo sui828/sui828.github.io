@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8" />
+  <title>生成物置き場</title>
+  <meta name="description" content="蓮谷彗の生成物置き場">
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="format-detection" content="email=no,telephone=no,address=no">
+  <meta name="robots" content="noindex,nofollow">
+  <link rel="icon" href="../favicon.ico" id="favicon">
+  <link rel="shortcut icon" href="../favicon.ico" id="favicon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&family=Sawarabi+Mincho&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../stylesheet.css" />
+</head>
+
+<body>
+  <div class="header">
+    <div class="title">
+      <h1 class="titletext"><a href="../index.html">生成物置き場</a></h1>
+    </div>
+  </div>
+  <div class="navigation">
+    <div class="navigationarea">
+      <ul class="navigationlist">
+        <li><a href="../music.html">Music</a></li>
+        <li><a href="../novel.html">Novel</a></li>
+        <li><a href="../picture.html">Picture</a></li>
+        <li><a href="../other.html">Other</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="box">
+    <div class="caption"><h2 class="noveltitle">動物と彼</h2></div>
+    <div class="noveltext"></div>
+    
+    <div class="boxtext"></div>
+    <div class="boxtext"></div>
+      <div class="divisionicon">
+        <div class="divisionicon4"><a href="../novel.html">back</a></div>
+      </div>    
+    <div class="boxtext"></div>
+  </div>
+  <div class="footer">
+      <div class="snsicon">
+        <ul class="snsiconlist">
+          <li><div class="footertext"><b>SHARE</b></div></li>
+        </ul>
+        <ul class="snsiconlist">
+          <li><a href="https://twitter.com/share?url=https%3A%2F%2Fsui828.github.io%2Fim3py_%2F&text=%E7%94%9F%E6%88%90%E7%89%A9%E7%BD%AE%E3%81%8D%E5%A0%B4+-+%E8%93%AE%E8%B0%B7%E5%BD%97&related=828sui"><i class="fab fa-twitter icons fa-2x fa-fw"></i></a></li>
+          <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsui828.github.io%2Fim3py_%2F"><i class="fab fa-facebook-square icons fa-2x fa-fw"></i></a></li>
+          <li><a href="https://social-plugins.line.me/lineit/share?url=https%3A%2F%2Fsui828.github.io%2Fim3py_%2F"><i class="fab fa-line icons fa-2x fa-fw"></i></a></li>
+        </ul>
+      </div>
+    <div class="copyright">Copyright &copy; 2021 HasuyaSui</div>
+  </div>
+</body>
+</html>
