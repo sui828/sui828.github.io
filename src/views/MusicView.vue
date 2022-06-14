@@ -1,6 +1,6 @@
 <template>
-  <div class="home">
-    <img alt="Top image" src="../assets/topimage.png">
+  <div class="music">
+    <div class="space"></div>
     <div class="caption"><h2 class="captiontitle">CONTENTS</h2></div>
     <div class="division">
       <div class="divisionarea">
@@ -63,14 +63,11 @@
 </script>
 
 <style>
-.home{
+.music{
   width: 100%;
   background: radial-gradient(circle, at 0% 0%, #002b56 0%, #002b56 41.98%, #ffffff 100%);
   background-image: radial-gradient(at 0% 0%, rgba(00, 43, 86, 1) 0%, rgba(00, 43, 86, 1) 42%, rgba(255, 255, 255, 1) 100%);
   background-blend-mode: normal;
-}
-.home > img{
-  width: 100%;
 }
 /*見出し*/
 .caption {
