@@ -50,7 +50,7 @@
               <IconOthers />
             </v-btn>
           </div>
-          <div class="top-menu-hamburger d-sm-none" v-if="ramune">
+          <div class="top-menu-hamburger d-sm-none" v-if="ramune !== '/im3py_/'">
             <v-btn block icon color="transparent" @click.stop="drawer = !drawer">
               <ZodiacTrajectory />
             </v-btn>

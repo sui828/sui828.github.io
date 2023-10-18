@@ -97,6 +97,12 @@ export default {
         title: "NIGIRI",
         description: "Unity1週間ゲームジャム2023/9で個人で制作。画像の寿司は実際に食べたもの。",
       },
+      {
+        src: require("../assets/others/aoha_icon.webp"),
+        link: "https://semicolon0103.com/",
+        title: "Aioi Aoha's Workshop",
+        description: "HPデザイン/実装を担当しました。",
+      },
     ],
   }),
 };
