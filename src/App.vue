@@ -50,7 +50,7 @@
               <IconOthers />
             </v-btn>
           </div>
-          <div class="top-menu-hamburger d-sm-none" v-if="ramune !== '/im3py_/'">
+          <div class="top-menu-hamburger d-sm-none" v-if="ramune !== 'top'">
             <v-btn block icon color="transparent" @click.stop="drawer = !drawer">
               <ZodiacTrajectory />
             </v-btn>
@@ -157,7 +157,7 @@ export default {
     $route(newRoute, oldRoute) {
       console.log("newRoute", newRoute);
       console.log("oldRoute", oldRoute);
-      const topPath = newRoute.path.split("/")[1];
+      const topPath = newRoute.name;
       this.ramune = topPath;
       console.log(this.ramune);
     },
