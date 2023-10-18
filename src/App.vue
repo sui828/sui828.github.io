@@ -148,7 +148,7 @@ export default {
 
   methods: {
     setRamune() {
-      this.ramune = this.$route.path;
+      this.ramune = this.$route.name;
     }
   },
 
