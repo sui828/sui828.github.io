@@ -159,6 +159,7 @@ export default {
       console.log("oldRoute", oldRoute);
       const topPath = newRoute.path.split("/")[1];
       this.ramune = topPath;
+      console.log(this.ramune);
     },
   },
 }
