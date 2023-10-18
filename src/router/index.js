@@ -11,43 +11,43 @@ import gsap from 'gsap'
 
 const routes = [
   {
-    path: '/',
+    path: '/im3py_/',
     name: 'top',
     component: TopView
   },
   {
-    path: '/about',
+    path: '/im3py_/about',
     name: 'about',
     component: AboutView
   },
   {
-    path: '/news',
+    path: '/im3py_/news',
     name: 'news',
     component: NewsView
   },
   {
-    path: '/picture',
+    path: '/im3py_/picture',
     name: 'picture',
     component: PictureView
   },
   {
-    path: '/music',
+    path: '/im3py_/music',
     name: 'music',
     component: MusicView
   },
   {
-    path: '/novel',
+    path: '/im3py_/novel',
     name: 'novel',
     component: NovelView
   },
   {
-    path: '/novel/:id',
+    path: '/im3py_/novel/:id',
     name: 'novel:id',
     component: NovelContentView,
     props: true
   },
   {
-    path: '/others',
+    path: '/im3py_/others',
     name: 'others',
     component: OtherView
   },

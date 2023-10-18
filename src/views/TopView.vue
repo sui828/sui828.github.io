@@ -4,12 +4,12 @@
       <ZodiacTrajectory />
     </div>
     <div class="top-icon">
-      <v-btn icon class="top-icon-about" to="/about"><IconAbout /></v-btn>
-      <v-btn icon class="top-icon-news" to="/news"><IconNews /></v-btn>
-      <v-btn icon class="top-icon-picture" to="/picture"><IconPicture /></v-btn>
-      <v-btn icon class="top-icon-music" to="/music"><IconMusic /></v-btn>
-      <v-btn icon class="top-icon-novel" to="/novel"><IconNovel /></v-btn>
-      <v-btn icon class="top-icon-others" to="/others"><IconOthers /></v-btn>
+      <v-btn icon class="top-icon-about" to="/im3py_/about"><IconAbout /></v-btn>
+      <v-btn icon class="top-icon-news" to="/im3py_/news"><IconNews /></v-btn>
+      <v-btn icon class="top-icon-picture" to="/im3py_/picture"><IconPicture /></v-btn>
+      <v-btn icon class="top-icon-music" to="/im3py_/music"><IconMusic /></v-btn>
+      <v-btn icon class="top-icon-novel" to="/im3py_/novel"><IconNovel /></v-btn>
+      <v-btn icon class="top-icon-others" to="/im3py_/others"><IconOthers /></v-btn>
     </div>
     <p class="top-text-about">About</p>
     <p class="top-text-news">News</p>

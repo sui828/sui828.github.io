@@ -1,15 +1,15 @@
 <template>
   <v-app>
-    <v-navigation-drawer location="top" v-model="drawer" v-if="ramune">
+    <v-navigation-drawer location="top" v-model="drawer" v-if="ramune !== 'top'">
       <ZodiacSign />
       <ZodiacTrajectory />
       <div class="drawer-icon">
-        <v-btn icon class="drawer-icon-about" to="/about"><IconAbout /></v-btn>
-        <v-btn icon class="drawer-icon-news" to="/news"><IconNews /></v-btn>
-        <v-btn icon class="drawer-icon-picture" to="/picture"><IconPicture /></v-btn>
-        <v-btn icon class="drawer-icon-music" to="/music"><IconMusic /></v-btn>
-        <v-btn icon class="drawer-icon-novel" to="/novel"><IconNovel /></v-btn>
-        <v-btn icon class="drawer-icon-others" to="/others"><IconOthers /></v-btn>
+        <v-btn icon class="drawer-icon-about" to="/im3py_/about"><IconAbout /></v-btn>
+        <v-btn icon class="drawer-icon-news" to="/im3py_/news"><IconNews /></v-btn>
+        <v-btn icon class="drawer-icon-picture" to="/im3py_/picture"><IconPicture /></v-btn>
+        <v-btn icon class="drawer-icon-music" to="/im3py_/music"><IconMusic /></v-btn>
+        <v-btn icon class="drawer-icon-novel" to="/im3py_/novel"><IconNovel /></v-btn>
+        <v-btn icon class="drawer-icon-others" to="/im3py_/others"><IconOthers /></v-btn>
         <p class="drawer-text-about">About</p>
         <p class="drawer-text-news">News</p>
         <p class="drawer-text-picture">Picture</p>
@@ -29,24 +29,24 @@
           </div>
         </div>
         <div class="top-menu">
-          <v-btn flat color="transparent" to="/" class="top-menu-title">生成物置き場</v-btn>
+          <v-btn flat color="transparent" to="/im3py_/" class="top-menu-title">生成物置き場</v-btn>
           <div class="top-menu-icons">
-            <v-btn flat color="transparent" to="/about">
+            <v-btn flat color="transparent" to="/im3py_/about">
               <IconAbout />
             </v-btn>
-            <v-btn flat color="transparent" to="/news">
+            <v-btn flat color="transparent" to="/im3py_/news">
               <IconNews />
             </v-btn>
-            <v-btn flat color="transparent" to="/picture">
+            <v-btn flat color="transparent" to="/im3py_/picture">
               <IconPicture />
             </v-btn>
-            <v-btn flat color="transparent" to="/music">
+            <v-btn flat color="transparent" to="/im3py_/music">
               <IconMusic />
             </v-btn>
-            <v-btn flat color="transparent" to="/novel">
+            <v-btn flat color="transparent" to="/im3py_/novel">
               <IconNovel />
             </v-btn>
-            <v-btn flat color="transparent" to="/others">
+            <v-btn flat color="transparent" to="/im3py_/others">
               <IconOthers />
             </v-btn>
           </div>
@@ -57,10 +57,10 @@
           </div>
         </div>
         <div class="side-menu">
-          <v-btn flat height="3.2rem" color="transparent" to="/" class="top-title">生成物置き場</v-btn>
+          <v-btn flat height="3.2rem" color="transparent" to="/im3py_/" class="top-title">生成物置き場</v-btn>
           <v-list>
             <v-list-item>
-              <v-btn flat color="transparent" to="/about">
+              <v-btn flat color="transparent" to="/im3py_/about">
                 <div class="d-flex flex-row justify-center px-4">
                   <IconAbout />
                   <v-list-item-title class="pl-4">About</v-list-item-title>
@@ -68,7 +68,7 @@
               </v-btn>
             </v-list-item>
             <v-list-item>
-              <v-btn flat color="transparent" to="/news">
+              <v-btn flat color="transparent" to="/im3py_/news">
                 <div class="d-flex flex-row justify-center px-4">
                   <IconNews />
                   <v-list-item-title class="pl-4">News</v-list-item-title>
@@ -76,7 +76,7 @@
               </v-btn>
             </v-list-item>
             <v-list-item>
-              <v-btn flat color="transparent" to="/picture">
+              <v-btn flat color="transparent" to="/im3py_/picture">
                 <div class="d-flex flex-row justify-center px-4">
                   <IconPicture />
                   <v-list-item-title class="pl-4">Picture</v-list-item-title>
@@ -84,7 +84,7 @@
               </v-btn>
             </v-list-item>
             <v-list-item>
-              <v-btn flat color="transparent" to="/music">
+              <v-btn flat color="transparent" to="/im3py_/music">
                 <div class="d-flex flex-row justify-center px-4">
                   <IconMusic />
                   <v-list-item-title class="pl-4">Music</v-list-item-title>
@@ -92,7 +92,7 @@
               </v-btn>
             </v-list-item>
             <v-list-item>
-              <v-btn flat color="transparent" to="/novel">
+              <v-btn flat color="transparent" to="/im3py_/novel">
                 <div class="d-flex flex-row justify-center px-4">
                   <IconNovel />
                   <v-list-item-title class="pl-4">Novel</v-list-item-title>
@@ -100,7 +100,7 @@
               </v-btn>
             </v-list-item>
             <v-list-item>
-              <v-btn flat color="transparent" to="/others">
+              <v-btn flat color="transparent" to="/im3py_/others">
                 <div class="d-flex flex-row justify-center px-4">
                   <IconOthers />
                   <v-list-item-title class="pl-4">Others</v-list-item-title>
