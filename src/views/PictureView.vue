@@ -175,6 +175,12 @@ export default {
         title: "団欒",
         description: "2023年4月制作。頭の中は毎日騒がしい。描きかけだったけどデータが吹っ飛んだ。",
       },
+      {
+        src: require("../assets/picture/estazolam_sum.webp"),
+        link: require("../assets/picture/estazolam.webp"),
+        title: "溶かす",
+        description: "2023年10月制作。MIS.Wの早稲田祭イラスト集のテーマから連想して描いた。",
+      },
     ],
   }),
 };

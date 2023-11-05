@@ -409,11 +409,11 @@ export default {
         description: "2023年5月制作。院試期間中ずっと聴いてた。",
       },
       {
-        src: require("../assets/noimage.webp"),
+        src: require("../assets/picture/estazolam_sum.webp"),
         linkNicoNico: "",
         linkYouTube: "",
         linkSoundCloud: "",
-        title: "Coming soon...",
+        title: "エスタゾラム",
         description: "2023年9月制作。\n無色透名祭Ⅱ参加曲。",
       },
     ],
