@@ -10,7 +10,8 @@
     <!-- 遷移用script -->
     <script>
       (function (l) {
-        l.replace(l.origin + l.pathname);
+        let secmentCount = 1;
+        l.replace(l.origin + "/?p=" + l.pathname.split('/').slice(0, 1 + segmentCount).join('/'));
       })(window.location);
     </script>
   </head>
