@@ -10,9 +10,7 @@
     <!-- 遷移用script -->
     <script>
       (function (l) {
-        if (l.hash) {
-          window.history.replaceState(null, null, l.hash.slice(1));
-        }
+        l.replace(l.origin + "/#" + l.pathname);
       })(window.location);
     </script>
   </head>
@@ -20,7 +18,5 @@
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
   </body>
 </html>

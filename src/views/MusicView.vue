@@ -410,7 +410,7 @@ export default {
       },
       {
         src: require("../assets/picture/estazolam_sum.webp"),
-        linkNicoNico: "",
+        linkNicoNico: "https://www.nicovideo.jp/watch/so42905295",
         linkYouTube: "",
         linkSoundCloud: "",
         title: "エスタゾラム",
