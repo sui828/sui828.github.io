@@ -9,12 +9,8 @@
     <title>HasuyaSui: 生成物置き場</title>
     <!-- 遷移用script -->
     <script>
-      let secmentCount = 1;
       let l = window.location;
-      let port = l.port ? ':' + l.port : ''
-      l.replace(
-          `${l.protocol}//${l.hostname}${port}/?p=${l.pathname.split('/').slice(0, 1 + segmentCount).join('/')}`
-      )
+      console.log(l);
     </script>
   </head>
   <body>
