@@ -155,11 +155,15 @@ export default {
   watch: {
   // Pathの変化: Page移動を監視する
     $route(newRoute, oldRoute) {
-      console.log("newRoute", newRoute);
-      console.log("oldRoute", oldRoute);
       const topPath = newRoute.name;
+      const oldPath = oldRoute.name;
+      this.ramune = oldPath;
       this.ramune = topPath;
       console.log(this.ramune);
+      console.log(this.$route.query.p);
+      if(this.$route.query.p !== ''){
+        console.log(this.$route.query.p);
+      }
     },
   },
 }
