@@ -143,6 +143,7 @@ export default {
 
   data: () => ({
     ramune: '',
+    page: '',
     drawer: false,
   }),
 
@@ -157,12 +158,13 @@ export default {
     $route(newRoute, oldRoute) {
       const topPath = newRoute.name;
       const oldPath = oldRoute.name;
-      this.ramune = oldPath;
       this.ramune = topPath;
       console.log(this.ramune);
       console.log(this.$route.query.p);
-      if(this.$route.query.p !== ''){
-        this.$router.push('/im3py_/' + this.$route.query.p)
+      this.page = oldPath;
+      this.page = this.$route.query.p;
+      if(this.page !== oldPath){
+        this.$router.push('/im3py_/' + this.page)
       }
     },
   },
