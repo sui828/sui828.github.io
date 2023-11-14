@@ -7,6 +7,7 @@ import MusicView from '../views/MusicView.vue'
 import NovelView from '../views/NovelView.vue'
 import NovelContentView from '../views/NovelContentView.vue'
 import OtherView from '../views/OtherView.vue'
+import ErrorView from '../views/ErrorView.vue'
 import gsap from 'gsap'
 
 const routes = [
@@ -52,9 +53,14 @@ const routes = [
     component: OtherView
   },
   {
-    path: '/im3py_/:catchAll(.*)',
-    name: 'top',
+    path: '/im3py_/?p=:catchAll(.*)',
+    name: 'top_on_query',
     component: TopView
+  },
+  {
+    path: '/im3py_/:catchAll(.*)',
+    name: '404',
+    component: ErrorView
   },
 ];
 
