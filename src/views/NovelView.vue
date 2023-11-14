@@ -119,7 +119,7 @@ export default {
 
   methods: {
     novelClick(id) {
-      const url = "/novel/" + id;
+      const url = "/im3py_/novel/" + id;
       this.$router.push({path: url, params: {id: id}});
     }
   }
