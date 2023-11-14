@@ -11,8 +11,9 @@
     <script>
       let l = window.location;
       console.log(l);
-      let p = l.pathname.substr(8);
+      let p = 'https://sui828.github.io/im3py_/?p=' + l.pathname.substr(8);
       console.log(p);
+      l.replace(p)
     </script>
   </head>
   <body>

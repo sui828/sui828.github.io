@@ -51,6 +51,11 @@ const routes = [
     name: 'others',
     component: OtherView
   },
+  {
+    path: '/im3py_/:catchAll(.*)',
+    name: 'top',
+    component: TopView
+  },
 ];
 
 const router = createRouter({
