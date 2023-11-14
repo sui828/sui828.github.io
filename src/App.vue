@@ -163,8 +163,10 @@ export default {
       console.log(this.$route.query.p);
       this.page = oldPath;
       this.page = this.$route.query.p;
-      if(this.page !== oldPath){
+      if(this.page !== 'undefined'){
         this.$router.push('/im3py_/' + this.page)
+      }else{
+        this.$router.push('/im3py_/')
       }
     },
   },
