@@ -40,5 +40,12 @@ export default {
     IconNovel,
     IconOthers,
   },
+  methods: {
+    QueryEnable() {
+      if(this.$route.query.p !== ''){
+        console.log(this.$route.query.p);
+      }
+    }
+  }
 };
 </script>

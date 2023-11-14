@@ -53,11 +53,6 @@ const routes = [
     component: OtherView
   },
   {
-    path: '/im3py_/?p=:catchAll(.*)',
-    name: 'top_on_query',
-    component: TopView
-  },
-  {
     path: '/im3py_/:catchAll(.*)',
     name: '404',
     component: ErrorView
