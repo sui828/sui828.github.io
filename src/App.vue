@@ -142,7 +142,7 @@ export default {
   },
 
   data: () => ({
-    ramune: '',
+    ramune: 'top',
     page: '',
     drawer: false,
   }),
