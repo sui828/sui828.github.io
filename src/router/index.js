@@ -12,11 +12,6 @@ import gsap from 'gsap'
 
 const routes = [
   {
-    path: '/im3py_/',
-    name: 'top',
-    component: TopView
-  },
-  {
     path: '/im3py_/about',
     name: 'about',
     component: AboutView
@@ -51,6 +46,11 @@ const routes = [
     path: '/im3py_/others',
     name: 'others',
     component: OtherView
+  },
+  {
+    path: '/im3py_/',
+    name: 'top',
+    component: TopView
   },
   {
     path: '/im3py_/:catchAll(.*)',

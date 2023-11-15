@@ -160,14 +160,7 @@ export default {
       const oldPath = oldRoute.name;
       this.ramune = topPath;
       console.log(this.ramune);
-      console.log(this.$route.query.p);
       this.page = oldPath;
-      this.page = this.$route.query.p;
-      if(this.page !== 'undefined'){
-        this.$router.push('/im3py_/' + this.page)
-      }else{
-        this.$router.push('/im3py_/')
-      }
     },
   },
 }

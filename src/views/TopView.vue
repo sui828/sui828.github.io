@@ -40,5 +40,19 @@ export default {
     IconNovel,
     IconOthers,
   },
+  data: () => ({
+    page: ''
+  }),
+  watch: {
+  // Pathの変化: Page移動を監視する
+    $route(newRoute, oldRoute) {
+      console.log(newRoute.name + '/' + oldRoute.name);
+      this.page = this.$route.query.p;
+      console.log(this.page);
+      if(this.page !== 'undefined'){
+        this.$router.push('/im3py_/' + this.page)
+      }
+    },
+  },
 };
 </script>
