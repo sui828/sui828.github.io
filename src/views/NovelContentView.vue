@@ -3,7 +3,7 @@
     <div class="novel-content" v-for="(item, i) in content" :key="i">
       <p class="novel-title">{{ item.title }}</p>
       <p class="novel-text">{{ item.text }}</p>
-      <v-btn flat to="/im3py_/novel">Back to Novel</v-btn>
+      <v-btn flat to="/novel">Back to Novel</v-btn>
     </div>
   </div>
 </template>
