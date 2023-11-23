@@ -45,18 +45,20 @@ export default {
   }),
   methods: {
     QueryIs: function(){
-      if(this.$route.query.p.startsWith('im3py/')){
+      if(this.$route.query.p === undefined){
+        this.page = '/'
+      }else if(this.$route.query.p.startsWith('im3py_/')){
         this.page = this.$route.query.p.substr(6)
       }else{
         this.page = '/' + this.$route.query.p
       }
+      console.log(this.page);
       if(this.page !== '/'){
-        this.$router.push(this.page)
+        // this.$router.push(this.page)
       }
     },
   },
   mounted(){
-    console.log('mounted');
     this.QueryIs();
   },
 };

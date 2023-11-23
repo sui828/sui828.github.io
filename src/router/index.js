@@ -54,7 +54,7 @@ const routes = [
   },
   {
     path: '/im3py_/:catchAll(.*)',
-    name: 'top',
+    name: 'im3py_top',
     component: TopView
   },
   {
