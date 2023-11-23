@@ -54,7 +54,7 @@ export default {
       }
       console.log(this.page);
       if(this.page !== '/'){
-        // this.$router.push(this.page)
+        this.$router.push(this.page)
       }
     },
   },
