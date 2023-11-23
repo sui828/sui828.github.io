@@ -48,12 +48,12 @@ const routes = [
     component: OtherView
   },
   {
-    path: '/im3py_/',
+    path: '/',
     name: 'top',
     component: TopView
   },
   {
-    path: '/',
+    path: '/im3py_/:catchAll(.*)',
     name: 'top',
     component: TopView
   },

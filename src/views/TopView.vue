@@ -41,12 +41,17 @@ export default {
     IconOthers,
   },
   data: () => ({
-    page: ''
+    page: '',
   }),
   methods: {
     QueryIs: function(){
-      if(this.$route.query.p !== undefined){
-        this.$router.push('/' + this.$route.query.p)
+      if(this.$route.query.p.startsWith('im3py/')){
+        this.page = this.$route.query.p.substr(6)
+      }else{
+        this.page = '/' + this.$route.query.p
+      }
+      if(this.page !== '/'){
+        this.$router.push(this.page)
       }
     },
   },
