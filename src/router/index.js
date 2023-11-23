@@ -53,11 +53,6 @@ const routes = [
     component: TopView
   },
   {
-    path: '/im3py_/:catchAll(.*)',
-    name: 'im3py_top',
-    component: TopView
-  },
-  {
     path: '/:catchAll(.*)',
     name: '404',
     component: ErrorView
