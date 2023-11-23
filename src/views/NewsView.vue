@@ -40,6 +40,22 @@ export default {
         Others : ""
       */
       {
+        genre: "Music",
+        color: "yellow-darken-4",
+        link: "https://www.nicovideo.jp/watch/so42905295",
+        date: "23/11/02",
+        title: "エスタゾラム",
+        text: "新曲を投稿しました。Niconicoで視聴できます。",
+      },
+      {
+        genre: "Picture",
+        color: "light-green-darken-3",
+        link: "",
+        date: "23/10/26",
+        title: "溶かす",
+        text: "イラストを公開しました。",
+      },
+      {
         genre: "Others",
         color: "",
         link: "",
