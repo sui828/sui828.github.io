@@ -47,7 +47,7 @@ export default {
     QueryIs: function(){
       if(this.$route.query.p === undefined){
         this.page = '/'
-      }else if(this.$route.query.p.startsWith('im3py_/')){
+      }else if(this.$route.query.p.startsWith('/im3py_/')){
         this.page = this.$route.query.p.substr(6)
       }else{
         this.page = '/' + this.$route.query.p
