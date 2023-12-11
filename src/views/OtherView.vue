@@ -103,6 +103,12 @@ export default {
         title: "Aioi Aoha's Workshop",
         description: "HPデザイン/実装を担当しました。",
       },
+      {
+        src: require("../assets/others/天賦素材早見表.webp"),
+        link: "",
+        title: "天賦素材早見表",
+        description: "原神ver4.2までに実装されたキャラクターの天賦素材早見表です。",
+      },
     ],
   }),
 };
