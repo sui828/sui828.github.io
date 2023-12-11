@@ -105,7 +105,7 @@ export default {
       },
       {
         src: require("../assets/others/天賦素材早見表.webp"),
-        link: "",
+        link: "https://sui828.github.io/img/天賦素材早見表.webp",
         title: "天賦素材早見表",
         description: "原神ver4.2までに実装されたキャラクターの天賦素材早見表です。",
       },
