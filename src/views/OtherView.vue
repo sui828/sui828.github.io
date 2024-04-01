@@ -62,6 +62,12 @@ export default {
         description: "テンポが遅めの曲を集めたKSMパッケージ。4曲とそれらのジャケットを担当。",
       },
       {
+        src: require("../assets/others/proc_ico.webp"),
+        link: "https://micomprocedure.com/",
+        title: "Micomprocedure",
+        description: "HPの実装を担当しました。",
+      },
+      {
         src: require("../assets/others/anchor_chan.webp"),
         link: "https://youtu.be/OKt3RCa7zXY",
         title: "アンカーちゃん3Dモデル",
@@ -102,12 +108,6 @@ export default {
         link: "https://semicolon0103.com/",
         title: "Aioi Aoha's Workshop",
         description: "HPデザイン/実装を担当しました。",
-      },
-      {
-        src: require("../assets/others/天賦素材早見表.webp"),
-        link: "https://sui828.github.io/img/天賦素材早見表.webp",
-        title: "天賦素材早見表",
-        description: "原神ver4.2までに実装されたキャラクターの天賦素材早見表です。",
       },
     ],
   }),

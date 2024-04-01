@@ -523,14 +523,19 @@ a {
   font-size: 24px;
 }
 .about-main {
-  width: 90%;
+  display: inline-block;
   font-size: 28px;
+  padding-top: 5vh;
+  /*
   position: absolute;
   top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+  */
+
+  text-align: left;
 }
 .about-link {
   display: flex;
@@ -550,7 +555,17 @@ a {
 .about-link a:hover {
   color: #d3daef;
 }
-@media (max-width: 1280px) {
+@media (max-width: 480px) {
+  .about-name-ja {
+    font-size: 36px;
+  }
+  .about-name-en {
+    margin-top: -0.5rem;
+    font-size: 16px;
+  }
+  .about-main {
+    font-size: 20px;
+  }
 }
 @media (max-aspect-ratio: 16/9) {
   .about {
