@@ -40,6 +40,14 @@ export default {
         Others : ""
       */
       {
+        genre: "Novel",
+        color: "blue-darken-4",
+        link: "",
+        date: "24/04/16",
+        title: "少年少女が見る世界",
+        text: "データを発掘したので加筆修正の上掲載しました！",
+      },
+      {
         genre: "Music",
         color: "yellow-darken-4",
         link: "https://www.nicovideo.jp/watch/so42905295",
