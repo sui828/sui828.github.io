@@ -27,7 +27,7 @@ export default {
     others: [
       {
         src: require("../assets/genshin/天賦素材早見表.webp"),
-        link: "",
+        link: require("../assets/genshin/天賦素材早見表.webp"),
         title: "天賦素材早見表(~ver4.6)",
         description: "",
       },
