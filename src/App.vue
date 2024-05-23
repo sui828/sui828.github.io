@@ -107,6 +107,10 @@
                 </div>
               </v-btn>
             </v-list-item>
+            <v-list-item>
+              <router-link to="/genshin">
+              </router-link>
+            </v-list-item>
           </v-list>
         </div>
       </div>
