@@ -7,6 +7,7 @@ import MusicView from '../views/MusicView.vue'
 import NovelView from '../views/NovelView.vue'
 import NovelContentView from '../views/NovelContentView.vue'
 import OtherView from '../views/OtherView.vue'
+import GIView from '../views/GIView.vue'
 import ErrorView from '../views/ErrorView.vue'
 import gsap from 'gsap'
 
@@ -46,6 +47,11 @@ const routes = [
     path: '/others',
     name: 'others',
     component: OtherView
+  },
+  {
+    path: '/genshin',
+    name: 'genshin',
+    component: GIView
   },
   {
     path: '/',
