@@ -40,6 +40,22 @@ export default {
         Others : ""
       */
       {
+        genre: "Music",
+        color: "yellow-darken-4",
+        link: "",
+        date: "24/09/02",
+        title: "炭酸抜きの思案, エイワズの地にて",
+        text: "インスト曲を掲載しました。Soundcloudにて視聴できます。",
+      },
+      {
+        genre: "Picture",
+        color: "light-green-darken-3",
+        link: "",
+        date: "24/09/02",
+        title: "Fragments of a Journey (Vol.1, Vol.2)",
+        text: "コミックマーケット103,104にて頒布された原神同人誌のイラストを掲載しました。",
+      },
+      {
         genre: "Novel",
         color: "blue-darken-4",
         link: "",

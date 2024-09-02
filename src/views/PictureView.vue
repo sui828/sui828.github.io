@@ -181,6 +181,30 @@ export default {
         title: "溶かす",
         description: "2023年10月制作。MIS.Wの早稲田祭イラスト集のテーマから連想して描いた。",
       },
+      {
+        src: require("../assets/picture/Godoshi1_sum.webp"),
+        link: require("../assets/picture/Godoshi1.webp"),
+        title: "Fragments of a Journey",
+        description: "2023年12月制作。サークルの原神同人誌の表紙を担当させていただきました。",
+      },
+      {
+        src: require("../assets/picture/Beidou_sum.webp"),
+        link: require("../assets/picture/Beidou.webp"),
+        title: "「炭になるがいい！」",
+        description: "2023年12月制作。サークルの原神同人誌に寄稿したイラストその1。",
+      },
+      {
+        src: require("../assets/picture/Freminet_sum.webp"),
+        link: require("../assets/picture/Freminet.webp"),
+        title: "「お別れの時間。」",
+        description: "2023年12月制作。サークルの原神同人誌に寄稿したイラストその2。",
+      },
+      {
+        src: require("../assets/picture/Layla_sum.webp"),
+        link: require("../assets/picture/Layla.webp"),
+        title: "まだ、夢を見ている？",
+        description: "2024年8月制作。サークルの原神同人誌に寄稿したイラスト。",
+      },
     ],
   }),
 };
