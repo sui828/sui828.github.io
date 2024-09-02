@@ -109,6 +109,12 @@ export default {
         title: "Aioi Aoha's Workshop",
         description: "HPデザイン/実装を担当しました。",
       },
+      {
+        src: require("../assets/others/sui_2d_2.webp"),
+        link: "",
+        title: "2Dモデル",
+        description: "今の技術力で作り直してみた。Live2Dの腕も少し上がった気がする。",
+      },
     ],
   }),
 };

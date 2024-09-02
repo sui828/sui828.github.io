@@ -200,6 +200,12 @@ export default {
         description: "2023年12月制作。サークルの原神同人誌に寄稿したイラストその2。",
       },
       {
+        src: require("../assets/picture/揺らめいた夏_sum.webp"),
+        link: require("../assets/picture/揺らめいた夏.webp"),
+        title: "揺らめいた夏",
+        description: "2024年1月制作。新しいオリジナルデザインのスマホカバー用イラストとして描いた。",
+      },
+      {
         src: require("../assets/picture/Layla_sum.webp"),
         link: require("../assets/picture/Layla.webp"),
         title: "まだ、夢を見ている？",
