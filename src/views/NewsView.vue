@@ -42,17 +42,33 @@ export default {
       {
         genre: "Music",
         color: "yellow-darken-4",
+        link: "https://www.nicovideo.jp/watch/sm44159251",
+        date: "24/11/04",
+        title: "『メイメイニ』",
+        text: "新曲を投稿しました。Niconico,Youtubeで視聴できます。",
+      },
+      {
+        genre: "Novel",
+        color: "blue-darken-4",
+        link: "",
+        date: "24/11/04",
+        title: "『さよならちゃん』",
+        text: "短編を掲載しました。",
+      },
+      {
+        genre: "Music",
+        color: "yellow-darken-4",
         link: "",
         date: "24/09/02",
-        title: "炭酸抜きの思案, エイワズの地にて",
+        title: "『炭酸抜きの思案』, 『エイワズの地にて』",
         text: "インスト曲を掲載しました。Soundcloudにて視聴できます。",
       },
       {
         genre: "Picture",
         color: "light-green-darken-3",
-        link: "",
+        link: "picture",
         date: "24/09/02",
-        title: "Fragments of a Journey (Vol.1, Vol.2)",
+        title: "『Fragments of a Journey』(Vol.1, Vol.2)",
         text: "コミックマーケット103,104にて頒布された原神同人誌のイラストを掲載しました。",
       },
       {
@@ -60,7 +76,7 @@ export default {
         color: "blue-darken-4",
         link: "",
         date: "24/04/16",
-        title: "少年少女が見る世界",
+        title: "『少年少女が見る世界』",
         text: "データを発掘したので加筆修正の上掲載しました！",
       },
       {
@@ -68,7 +84,7 @@ export default {
         color: "yellow-darken-4",
         link: "https://www.nicovideo.jp/watch/so42905295",
         date: "23/11/02",
-        title: "エスタゾラム",
+        title: "『エスタゾラム』",
         text: "新曲を投稿しました。Niconicoで視聴できます。",
       },
       {
@@ -76,7 +92,7 @@ export default {
         color: "light-green-darken-3",
         link: "",
         date: "23/10/26",
-        title: "溶かす",
+        title: "『溶かす』",
         text: "イラストを公開しました。",
       },
       {
